@@ -1,0 +1,27 @@
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.pdb
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.Properties.Resources.resources
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.GenerateResource.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.pdb
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll.config
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll
+C:\Users\burha\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.dll
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\bin\Debug\Entity.dll.config
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\bin\Debug\Entity.dll
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\bin\Debug\Entity.pdb
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.Properties.Resources.resources
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.csproj.GenerateResource.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.dll
+C:\Users\burha\Desktop\KutuphaneOtomasyonu - Kopya (2)\Entity\obj\Debug\Entity.pdb
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll.config
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.pdb
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.Properties.Resources.resources
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.GenerateResource.cache
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.dll
+C:\Users\burha\Desktop\BurhanCelikkol\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.pdb
