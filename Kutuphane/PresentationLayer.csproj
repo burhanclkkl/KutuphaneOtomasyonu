@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAFFE453-1A8F-4234-8B99-B4697C8DDC47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kutuphane</RootNamespace>
+    <AssemblyName>Kutuphane</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\KutuphaneOtomasyonu\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorcunuzBulunmamaktadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorcunuzBulunmamaktadir.Designer.cs">
+      <DependentUpon>BorcunuzBulunmamaktadir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CezaOdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CezaOdeme.Designer.cs">
+      <DependentUpon>CezaOdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisDuyurular.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GirisDuyurular.Designer.cs">
+      <DependentUpon>GirisDuyurular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisGorevli.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GirisGorevli.Designer.cs">
+      <DependentUpon>GirisGorevli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisHakkimizda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisHakkimizda.Designer.cs">
+      <DependentUpon>GirisHakkimizda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisOgrenci.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GirisOgrenci.Designer.cs">
+      <DependentUpon>GirisOgrenci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisPanel.Designer.cs">
+      <DependentUpon>GirisPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisSifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisSifremiUnuttum.Designer.cs">
+      <DependentUpon>GirisSifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliKitapEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliKitapEkle.Designer.cs">
+      <DependentUpon>GorevliKitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliKitapGuncelle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliKitapGuncelle.Designer.cs">
+      <DependentUpon>GorevliKitapGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliKitapListesi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliKitapListesi.Designer.cs">
+      <DependentUpon>GorevliKitapListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliKitapSil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliKitapSil.Designer.cs">
+      <DependentUpon>GorevliKitapSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliOgrenciEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliOgrenciEkle.Designer.cs">
+      <DependentUpon>GorevliOgrenciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliOgrenciGuncelle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliOgrenciGuncelle.Designer.cs">
+      <DependentUpon>GorevliOgrenciGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliOgrenciListesi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliOgrenciListesi.Designer.cs">
+      <DependentUpon>GorevliOgrenciListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliOgrenciSil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GorevliOgrenciSil.Designer.cs">
+      <DependentUpon>GorevliOgrenciSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GorevliPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GorevliPanel.Designer.cs">
+      <DependentUpon>GorevliPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HataliCezaOdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HataliCezaOdeme.Designer.cs">
+      <DependentUpon>HataliCezaOdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HataliSifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HataliSifre.Designer.cs">
+      <DependentUpon>HataliSifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapEklendi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEklendi.Designer.cs">
+      <DependentUpon>KitapEklendi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapMevcutDegil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapMevcutDegil.Designer.cs">
+      <DependentUpon>KitapMevcutDegil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapSilindi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapSilindi.Designer.cs">
+      <DependentUpon>KitapSilindi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciBilgilerim.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OgrenciBilgilerim.Designer.cs">
+      <DependentUpon>OgrenciBilgilerim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciCezaOdeme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OgrenciCezaOdeme.Designer.cs">
+      <DependentUpon>OgrenciCezaOdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciGrafik.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OgrenciGrafik.Designer.cs">
+      <DependentUpon>OgrenciGrafik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciGuncellendi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciGuncellendi.Designer.cs">
+      <DependentUpon>OgrenciGuncellendi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKitapAlmaTeslim.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OgrenciKitapAlmaTeslim.Designer.cs">
+      <DependentUpon>OgrenciKitapAlmaTeslim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKitapAra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OgrenciKitapAra.Designer.cs">
+      <DependentUpon>OgrenciKitapAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciNumarasiMevcut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciNumarasiMevcut.Designer.cs">
+      <DependentUpon>OgrenciNumarasiMevcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciPanel.Designer.cs">
+      <DependentUpon>OgrenciPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciSilindi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciSilindi.Designer.cs">
+      <DependentUpon>OgrenciSilindi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OgrenciEklendi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciEklendi.Designer.cs">
+      <DependentUpon>OgrenciEklendi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BorcunuzBulunmamaktadir.resx">
+      <DependentUpon>BorcunuzBulunmamaktadir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CezaOdeme.resx">
+      <DependentUpon>CezaOdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisDuyurular.resx">
+      <DependentUpon>GirisDuyurular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisGorevli.resx">
+      <DependentUpon>GirisGorevli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisHakkimizda.resx">
+      <DependentUpon>GirisHakkimizda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisOgrenci.resx">
+      <DependentUpon>GirisOgrenci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisPanel.resx">
+      <DependentUpon>GirisPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisSifremiUnuttum.resx">
+      <DependentUpon>GirisSifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliKitapEkle.resx">
+      <DependentUpon>GorevliKitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliKitapGuncelle.resx">
+      <DependentUpon>GorevliKitapGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliKitapListesi.resx">
+      <DependentUpon>GorevliKitapListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliKitapSil.resx">
+      <DependentUpon>GorevliKitapSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliOgrenciEkle.resx">
+      <DependentUpon>GorevliOgrenciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliOgrenciGuncelle.resx">
+      <DependentUpon>GorevliOgrenciGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliOgrenciListesi.resx">
+      <DependentUpon>GorevliOgrenciListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliOgrenciSil.resx">
+      <DependentUpon>GorevliOgrenciSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GorevliPanel.resx">
+      <DependentUpon>GorevliPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HataliCezaOdeme.resx">
+      <DependentUpon>HataliCezaOdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HataliSifre.resx">
+      <DependentUpon>HataliSifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapEklendi.resx">
+      <DependentUpon>KitapEklendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapMevcutDegil.resx">
+      <DependentUpon>KitapMevcutDegil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapSilindi.resx">
+      <DependentUpon>KitapSilindi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciBilgilerim.resx">
+      <DependentUpon>OgrenciBilgilerim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciCezaOdeme.resx">
+      <DependentUpon>OgrenciCezaOdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciEklendi.resx">
+      <DependentUpon>OgrenciEklendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciGrafik.resx">
+      <DependentUpon>OgrenciGrafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciGuncellendi.resx">
+      <DependentUpon>OgrenciGuncellendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciKitapAlmaTeslim.resx">
+      <DependentUpon>OgrenciKitapAlmaTeslim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciKitapAra.resx">
+      <DependentUpon>OgrenciKitapAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciNumarasiMevcut.resx">
+      <DependentUpon>OgrenciNumarasiMevcut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciPanel.resx">
+      <DependentUpon>OgrenciPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciSilindi.resx">
+      <DependentUpon>OgrenciSilindi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{614beaf0-4123-446e-9d55-be15db3d76ef}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{21d33d98-b95a-4a06-8071-2c5c84466e4d}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{72b63120-6937-423a-961c-c97f0e5b3280}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
